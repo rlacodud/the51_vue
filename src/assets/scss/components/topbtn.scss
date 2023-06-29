@@ -1,0 +1,18 @@
+.intoTop {
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  right: 20px;
+  bottom: 17px;
+  color: #fff;
+  z-index: 50;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.5);
+  &:hover {
+    background: rgba(255, 122, 97, 1);
+  }
+}
